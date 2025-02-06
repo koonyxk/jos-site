@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(248, 169, 78);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+}
+* {
+    font-family: "oswald", sans-serif;
+}
+
+p {
+    color: black;
+}
+
+h2 {
+    color: rgb(0, 0, 0);
+}
+
+img {
+    width: 200px;
+    height: 370px;
+}
+
+table {
+     border-collapse: collapse;
+}
+
+th {
+    background-color: #faa76f;
+}
+
+th,
+td {
+    border: 1px solid #df5a1c;
+    text-align:left;
+    padding: 8px;
+}
