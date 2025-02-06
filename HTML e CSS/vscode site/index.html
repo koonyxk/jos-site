@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/fastbootstrap@2.2.0/dist/css/fastbootstrap.min.css" rel="stylesheet" integrity="sha256-V6lu+OdYNKTKTsVFBuQsyIlDiRWiOmtC8VQ8Lzdm2i4=" crossorigin="anonymous">
+       
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+          data-bs-target="#navbarExample" aria-controls="navbarExample" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand" href="#"><img src="pngwing.com.png" width="36" /></a>
+          <div class="collapse navbar-collapse" id="navbarExample">
+            <ul class="navbar-nav me-auto mb-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Início</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Loja</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Pelúcias</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Kuromi</a></li>
+                  <li><a class="dropdown-item" href="#">My Melody</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li><a class="dropdown-item" href="#">Todas</a></li>
+                </ul>
+              </li>
+            </ul>
+            <div class="d-flex align-items-center flex-column flex-lg-row">
+              <form class="me-2 mb-2 mb-lg-0">
+                <input type="text" class="form-control form-control-sm" placeholder="Pesquisar" />
+              </form>
+              <a class="btn btn-primary" href="">Logar</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+      
+    <ul class="nav nav-pills">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" data-bs-toggle="pill" href="#">Início</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" data-bs-toggle="pill">Loja</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" data-bs-toggle="pill">Pelúcias</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" data-bs-toggle="pill">Todas</a>
+        </li>
+      </ul>
+
+
+    <div class="container text-center">
+        <h2>Pelúcias Sanrio</h2>
+    </div>
+
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">Item</th>
+          <th scope="col">Estoque</th>
+          <th scope="col">Valor</th>
+          <th><a></a></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">Hello Kitty</th>
+          <td>2</td>
+          <td>R$100,00</td>
+          <th><a href="https://youtube.com/shorts/VGWAK_QCgkY?si=9C2CuB9aLasFtX4Z">Prévia</a></th>
+        </tr>
+        <tr>
+          <th scope="row">Kuromi</th>
+          <td>4</td>
+          <td>R$70,00</td>
+          <th><a href="https://youtube.com/shorts/UEMpjyGjopo?si=FO25kQBTUyMba1_V">Prévia</a></th>
+        </tr>
+        <tr>
+          <th scope="row">My Melody</th>
+          <td>7</td>
+          <td>R$60,00</td>
+          <th><a href="https://youtube.com/shorts/06m6UFe8Prk?si=XQ0yyYUMd6zvH1m5">Préva</a></th>
+        </tr>
+      </tbody>
+    </table>
+
+    <div id="carouselBasicExample" class="carousel slide" data-bs-ride="true">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselBasicExample" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselBasicExample" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselBasicExample" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+
+
+      <div class="d-flex justify-content-center align-items-center">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/xgIxJTzxU2g?si=Z9-XjtvWoraDR5FE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
